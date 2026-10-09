@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.bak
+*.tmp
+~$*
+data/raw/*.csv
+!data/raw/README.md
