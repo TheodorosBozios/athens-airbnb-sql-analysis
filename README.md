@@ -4,6 +4,13 @@
 
 End-to-end **SQL Server** project on Athens Airbnb data: load and model listings / calendar / reviews, clean and constrain data, answer business questions on pricing, availability and review activity, and apply performance techniques (views, indexes, stored procedures, temporary tables).
 
+## Download full package
+
+**[Complete project ZIP (Google Drive)](https://drive.google.com/file/d/1iYpOtxFDUuuzsVDYPPDSfFR9vhFoORhw/view?usp=sharing)**  
+Includes all SQL scripts, sample CSVs, results, documentation, charts and presentation (~340 KB).
+
+Full raw Athens dumps (listings / calendar / reviews) are **100–200MB+** and are not stored in GitHub. Use Inside Airbnb public extracts or your local export.
+
 ## Skills demonstrated
 
 - T-SQL · data types · PKs / FKs · data quality  
@@ -15,20 +22,15 @@ End-to-end **SQL Server** project on Athens Airbnb data: load and model listings
 ## Repository structure
 
 ```
-sql/                 Schema, load, cleaning, business queries, views, SP, indexes
-submission/          Full solution scripts (schema + analysis)
-data/sample/         Small sample CSVs (reproducible demos)
-results/             Aggregate outputs from the analysis
-scripts/             Python helpers (profiling, tests)
-documentation/       Data dictionary, methodology
+sql/           Schema, load, cleaning, business queries, views, SP, indexes
+submission/    Full solution scripts (in the ZIP package)
+data/sample/   Small sample CSVs for demos
+results/       Aggregate outputs (in the ZIP package)
+scripts/       Python helpers (in the ZIP package)
+documentation/ Data dictionary, methodology (in the ZIP package)
 ```
 
-**Full project package (SQL + sample data + results + presentation):**  
-See Google Drive link in the repo About / README after upload (or request the zip).
-
-Full raw Athens dumps are large (100MB+). They are **not** stored in this repo.  
-Public source pattern: [Inside Airbnb](http://insideairbnb.com/) Athens downloads.  
-A linked sample covers **33 listings**, **1,659 reviews** and **12,045 calendar rows** (PII/free text reduced).
+This GitHub repo keeps the **README + core SQL entry points**. The ZIP has the complete portfolio deliverable.
 
 ## Key findings (full historical files, Sep 2023 snapshot)
 
@@ -55,7 +57,7 @@ Mean is much higher than median — use **median** for price positioning. Highes
 6. Stored procedure (top revenue proxy by month/year): `sql/06_stored_procedure.sql`.  
 7. Temporary table (availability days): `sql/07_temporary_tables.sql`.
 
-Or use the combined scripts under `submission/`.
+Full scripts are in the ZIP under `sql/` and `submission/`.
 
 ## Portfolio description (CV)
 
