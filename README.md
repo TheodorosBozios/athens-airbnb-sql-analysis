@@ -6,8 +6,10 @@ End-to-end **SQL Server** project on Athens Airbnb data: load and model listings
 
 ## Download full package
 
-**[Complete project ZIP (Google Drive)](https://drive.google.com/file/d/1iYpOtxFDUuuzsVDYPPDSfFR9vhFoORhw/view?usp=sharing)**  
+**[Complete project ZIP (Google Drive)](https://drive.google.com/file/d/16Vx2lbaZBG0mDVWygbDvweGI_fKwIopT/view?usp=sharing)**  
 Includes all SQL scripts, sample CSVs, results, documentation, charts and presentation (~340 KB).
+
+> If the link asks for access: open the file in your Drive → **Share** → **Anyone with the link** → Viewer.
 
 Full raw Athens dumps (listings / calendar / reviews) are **100–200MB+** and are not stored in GitHub. Use Inside Airbnb public extracts or your local export.
 
